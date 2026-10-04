@@ -1,0 +1,65 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+:root {
+    --marrom-escuro: #3e2723;
+    --marrom-claro: #8d6e63;
+    --creme: #fff8e7;
+    --laranja: #d97706;
+    --branco: #ffffff;
+}
+
+body {
+    background-color: var(--creme);
+    color: #3e2723;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--creme);
+    color: var(--marrom-escuro);
+    padding: 22px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav a {
+    color: var(--marrom-claro);
+    text-decoration: none;
+    border: 2px solid var(--marrom-escuro);
+    border-radius: 20px;
+
+}
+
+#sobre {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid var(--marrom-escuro);
+    border-radius: 10px;
+}
+
+#cardapio {
+    padding: 10px;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid var(--marrom-escuro);
+    border-radius: 10px;
+}
+
+#contato {
+        border: 2px solid var(--marrom-escuro);
+        border-radius: 15px;
+}
+
